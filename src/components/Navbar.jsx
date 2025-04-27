@@ -133,13 +133,25 @@ const Navbar = () => {
               className="cursor-pointer text-xl opacity-70 transition-all 
         duration-300 hover:text-blue-500 hover:opacity-100"
             >
-              <BsLinkedin />
+              <a
+                href="https://www.linkedin.com/in/mehul-verma-b7a333246"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin />
+              </a>
             </li>
             <li
               className="cursor-pointer text-xl opacity-70 transition-all 
         duration-300 hover:text-orange-500 hover:opacity-100"
             >
-              <BsGithub />
+              <a
+                href="https://github.com/MehulVerma17"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BsGithub />
+              </a>
             </li>
           </ul>
         </div>
